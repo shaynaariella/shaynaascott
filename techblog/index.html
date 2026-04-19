@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shayna's Tech Blog</title>
+
+  <link href="./index_files/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      user-select: none;
+    }
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+  <link href="./index_files/blog.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+  <header class="blog-header py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+        <a class="link-secondary" href="#">Subscribe</a>
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-dark" href="#">Shayna's Tech Blog</a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <a class="link-secondary" href="#" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"
+               stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+               stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24">
+            <circle cx="10.5" cy="10.5" r="7.5"></circle>
+            <path d="M21 21l-5.2-5.2"></path>
+          </svg>
+        </a>
+        <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-scroller py-1 mb-2">
+    <nav class="nav d-flex justify-content-between">
+      <a class="p-2 link-secondary" href="#">Web Dev</a>
+      <a class="p-2 link-secondary" href="#">HTML</a>
+      <a class="p-2 link-secondary" href="#">CSS</a>
+      <a class="p-2 link-secondary" href="#">JavaScript</a>
+      <a class="p-2 link-secondary" href="#">Design</a>
+      <a class="p-2 link-secondary" href="#">Tools</a>
+      <a class="p-2 link-secondary" href="#">Learning</a>
+    </nav>
+  </div>
+</div>
+
+<main class="container">
+
+  <!-- HERO FEATURED POST -->
+  <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+    <div class="col-md-6 px-0">
+      <h1 class="display-4 fst-italic">Why I Love Learning Tech</h1>
+      <p class="lead my-3">
+        As an IST student, I'm constantly discovering new tools, concepts, and skills that shape how I think about technology. This blog is where I share what I'm learning along the way.
+      </p>
+      <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+    </div>
+  </div>
+
+  <!-- FEATURED CARDS -->
+  <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">Web Development</strong>
+          <h3 class="mb-0">My First Bootstrap Project</h3>
+          <div class="mb-1 text-muted">Apr 12</div>
+          <p class="card-text mb-auto">
+            I used Bootstrap's Blog template to build a clean, responsive layout. It taught me how components, spacing, and containers work together; and how to structure HTML for readability and maintainability.
+          </p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250">
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Tech</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">Learning</strong>
+          <h3 class="mb-0">What I'm Studying This Week</h3>
+          <div class="mb-1 text-muted">Apr 10</div>
+          <p class="mb-auto">
+            This week I focused on CSS basics, responsive design, and how to structure HTML for readability and accessibility.
+          </p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250">
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Learn</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="row g-5">
+    <div class="col-md-8">
+
+      <h3 class="pb-4 mb-4 fst-italic border-bottom">From the Firehose</h3>
+
+      <!-- BLOG POST 1 -->
+      <article class="blog-post">
+        <h2 class="blog-post-title">How I'm Learning HTML & CSS</h2>
+        <p class="blog-post-meta">April 12, 2026 by Shayna</p>
+
+        <p>HTML and CSS are the foundation of everything on the web. I've been practicing by building small projects, experimenting with layouts, and learning how different tags and properties work together.</p>
+        <p>Understanding how containers, rows, and columns behave in Bootstrap has made structuring pages so much easier.</p>
+      </article>
+
+      <!-- BLOG POST 2 -->
+      <article class="blog-post">
+        <h2 class="blog-post-title">My Favorite Beginner-Friendly Tools</h2>
+        <p class="blog-post-meta">April 8, 2026 by Shayna</p>
+
+        <p>As someone still building confidence in web development, I rely on tools that make learning smoother. VS Code, Bootstrap, and W3Schools have been incredibly helpful.</p>
+        <p>These tools let me focus on understanding concepts instead of getting stuck on complicated setup or configurations.</p>
+      </article>
+
+      <!-- BLOG POST 3 -->
+      <article class="blog-post">
+        <h2 class="blog-post-title">Why I Chose the IST Program</h2>
+        <p class="blog-post-meta">April 5, 2026 by Shayna</p>
+
+        <p>I've always loved technology, but IST gives me the perfect mix of problem solving, design, and hands on learning. Every class teaches me something practical that I can use immediately.</p>
+        <p>This blog is part of that journey — a place to document what I'm learning and how I'm growing.</p>
+      </article>
+
+    </div>
+
+    <!-- SIDEBAR -->
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 2rem;">
+
+        <div class="p-4 mb-3 bg-light rounded">
+          <h4 class="fst-italic">About</h4>
+          <p class="mb-0">I'm an IST student exploring web development, design, and technology. This blog is where I share what I'm learning as I build my skills.</p>
+        </div>
+
+        <div class="p-4">
+          <h4 class="fst-italic">Elsewhere</h4>
+          <ol class="list-unstyled">
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ol>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="blog-footer">
+  <p>Created by Shayna Scott for IST Practice Activity 3.</p>
+  <p><a href="#">Back to top</a></p>
+</footer>
+
+</body>
+</html>
