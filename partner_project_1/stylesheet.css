@@ -1,0 +1,47 @@
+h1 {
+    font-family: Josefin Sans, sans-serif;
+    font-size: 40px;
+    color: rgb(66, 66, 151);
+    background-image: url("homepage-pic.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+#welcome-message {
+    font-family: Crimson Text, serif;
+    font-size: 24px;
+    color: rgb(40, 40, 113);
+    text-align: center; 
+    background-color: rgb(235, 248, 255);
+    border: rgb(40, 40, 113) solid 2px;
+    margin: 5px 1px 5px 1px;
+}
+p {
+    font-family: Crimson Text, serif;
+    font-size: 20px;
+}
+body {    
+    background-color: rgba(207, 233, 255, 0.803);
+}
+.display1 {
+    font-family: Josefin Sans, sans-serif;
+    background-color: rgb(235, 248, 255);
+    border: rgb(40, 40, 113) solid 2px;
+    margin: 0 0 5px 0;
+    padding: 15px;
+}
+#about {
+    background-color: rgb(235, 248, 255);
+    padding: 15px;
+    border: rgb(40, 40, 113) solid 2px;
+}
