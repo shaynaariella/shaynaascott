@@ -1,0 +1,21 @@
+body {
+    background-color: lightsteelblue;
+}
+h1 {
+    color: midnightblue; font-family: Brush Script MT, cursive; font-size: 60px; text-align: center;
+}
+h2 {
+    color: rgb(58, 0, 112); background-color: rgb(227, 116, 182); border: 2px solid purple; text-align: center;
+}
+h3 {
+    color:rgb(19, 48, 74); font-family: Brush Script MT, cursive; text-align: center; font-size: 30px;
+}
+section {
+    background-color: rgb(240, 230, 250); border: 2px solid purple; padding: 10px; margin: 10px;
+}
+#calmingcrystals {
+    color:aliceblue; font-family: Brush Script MT, cursive;
+}
+#why {
+    color:aliceblue;
+}
