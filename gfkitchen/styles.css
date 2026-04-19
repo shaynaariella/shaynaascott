@@ -1,0 +1,86 @@
+/* Mobile Styles */
+#tablet-menu, #desktop-gallery, footer {
+    display: none;
+}
+
+#mobile-directions img {
+    width: 100%;
+    height: auto;
+}
+
+#mobile-directions {
+    font-size: 1rem;
+    padding: 20px;
+}
+
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 600px) {
+    #mobile-directions, .address, .description {
+        display: none;
+    }
+
+    #tablet-menu {
+        display: block;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .menu-item {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .menu-item img {
+        width: 200px;
+        height: auto;
+    }   
+
+    footer {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        background-color: #f8f8f8;
+    }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 900px) {
+    #tablet-menu {
+        display: none;
+    }
+
+    #desktop-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        text-align: center;
+        padding: 20px;
+        background-color: #f8f8f8;
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        background-color: #f8f8f8;
+    }
+}
