@@ -1,0 +1,182 @@
+body {
+    background-color: rgb(26, 26, 46);
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    background-color: rgb(15, 52, 96);
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#menu a {
+    color: rgb(209, 209, 233);
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    color: rgb(141, 105, 201);
+}
+
+h1, h2, h3 {
+    color: rgb(141, 105, 201);
+    text-align: center;
+}
+
+p {
+    color: rgb(209, 209, 233);
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.game-list {
+    list-style: none;
+    padding: 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.game-list li {
+    background-color: rgb(22, 33, 62);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.game-list img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+.table-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgb(22, 33, 62);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.platform-card {
+    background-color: rgb(22, 33, 62);
+    border: 2px solid rgb(83, 52 ,131);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.platform-card li {
+    margin: 10px 0;
+    color: rgb(209, 209, 233);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: rgb(255, 255, 255);
+}
+
+th, td {
+    border: 1px solid rgb(83, 52, 131);
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(83, 52, 131);
+}
+
+.question {
+    background-color: rgb(22, 33, 62);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+#game-image {
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+#game-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgb(141, 105, 201);
+    filter: brightness(1.2);
+}
+
+#submitQuiz {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgb(83, 52, 131);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#submitQuiz:hover {
+    background-color: rgb(141, 105, 201);
+}
+
+#resultBox {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(15, 52, 96);
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: rgb(209, 209, 233);
+    margin-top: 40px;
+    position: fixed;
+}
+
+@media (max-width: 600px) {
+    #menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .game-cover {
+        width: 150px;
+    }
+
+    .question {
+        max-width: 90%;
+    }
+}
+
+#contact-container {
+    max-width: 600px;
+    margin: 40px auto;
+    position: relative; 
+}
+

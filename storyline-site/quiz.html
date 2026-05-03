@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gamer Quiz</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <nav id="menu">
+            <a href="index.html">Home</a>
+            <a href="examples.html">Game Examples</a>
+            <a href="why-story-games.html">Why Story Games?</a>
+            <a href="platforms.html">Gaming Platforms</a>
+            <a href="quiz.html">Gamer Quiz</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <h1>What Type of Story Gamer Are You?</h1>
+        <p>Answer the questions below to discover your story-gaming personality!</p>
+
+        <form id="quizForm">
+
+            <div class="question">
+                <h3>1. What matters most to you in a game?</h3>
+                <label><input type="radio" name="q1" value="emotional"> Emotional storytelling</label><br>
+                <label><input type="radio" name="q1" value="choices"> Choices that matter</label><br>
+                <label><input type="radio" name="q1" value="cinematic"> Cinematic action</label><br>
+                <label><input type="radio" name="q1" value="exploration"> Exploration and atmosphere</label>
+            </div>
+
+            <div class="question">
+                <h3>2. How do you want to feel while playing?</h3>
+                <label><input type="radio" name="q2" value="emotional"> Moved</label><br>
+                <label><input type="radio" name="q2" value="choices"> In control</label><br>
+                <label><input type="radio" name="q2" value="cinematic"> Immersed</label><br>
+                <label><input type="radio" name="q2" value="exploration"> Curious</label>
+            </div>
+
+            <div class="question">
+                <h3>3. What pace do you prefer?</h3>
+                <label><input type="radio" name="q3" value="emotional"> Slow and emotional</label><br>
+                <label><input type="radio" name="q3" value="choices"> Branching and decision-heavy</label><br>
+                <label><input type="radio" name="q3" value="cinematic"> Fast and dramatic</label><br>
+                <label><input type="radio" name="q3" value="exploration"> Calm and exploratory</label>
+            </div>
+
+            <div class="question">
+                <h3>4. How long do you like your games?</h3>
+                <label><input type="radio" name="q4" value="emotional"> Short & powerful</label><br>
+                <label><input type="radio" name="q4" value="choices"> Medium with choices</label><br>
+                <label><input type="radio" name="q4" value="cinematic"> Long & cinematic</label><br>
+                <label><input type="radio" name="q4" value="exploration"> Any length! I just want vibes</label>
+            </div>
+
+            <button type="button" id="submitQuiz">Show My Result</button>
+        </form>
+
+        <div id="resultBox"></div>
+
+        <footer>
+            Shayna Ariella Scott - Story-Driven Gaming - 2026
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
